@@ -69,7 +69,7 @@ export default function HomeNobi(props) {
         <LeftDirection />
         <InputSearch
           style={Styles.header.search}
-          placeholder="Search"
+          placeholder="Search ulalal"
           value={keyword}
           onChangeText={(text) => {
             searchFilterFunction(text)
